@@ -16,6 +16,7 @@ const Card=React.createClass({
         </div>
       <div className="front">
         <h1 className="card-back">{this.props.data.name}</h1>
+        <span>Hover over to check it out!</span>
       </div>
         </div>
           </div>);
